@@ -26,8 +26,8 @@ public class Scannertutor1 {
         Scanner keyboard = new Scanner(System.in);
 
         // Tampilkan output ke user
-        System.out.println("### Pendataan Karyawan PT. Petani Kode ###");
-        System.out.print("Nama karyawan : ");
+        System.out.println("### Pendataan pegawai PT. Petani Kode ###");
+        System.out.print("Nama pegawai : ");
         // menggunakan scanner dan menyimpan apa yang diketik di variabel nama
         nama = keyboard.nextLine();
         // Tampilkan outpu lagi
@@ -44,7 +44,7 @@ public class Scannertutor1 {
 
         // Menampilkan apa yang sudah simpan di variabel
         System.out.println("--------------------");
-        System.out.println("Nama Karyawan: " + nama);
+        System.out.println("Nama pegawai: " + nama);
         System.out.println("Alamat: " + alamat);
         System.out.println("Usia: " + usia + " tahun");
         System.out.println("Gaji: Rp " + gaji);
